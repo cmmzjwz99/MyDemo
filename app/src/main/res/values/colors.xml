@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#4287FF</color>
+    <color name="gray">#ddd</color>
+    <color name="darkyellow">#FFCC33</color>
+
+    <color name="gray_black">#88000000</color>
+    <color name="soft_black">#cc000000</color>
+
+    <!--主题色-->
+    <color name="action_bar">#FFFFBE33</color>
+    <color name="gray_999">#999999</color>
+    <color name="gray_666">#666666</color>
+    <color name="gray_333">#333333</color>
+    <color name="MainText">#333333</color>
+
+    <!--tab的底部线-->
+    <color name="line_color_2">#e5e5e5</color>
+    <color name="red_ff606a">#ff3e3e</color>
+    <color name="green_00ca81">#00ca81</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="line_color_1">#e5e5e5</color>
+    <color name="yellow">#ecca50</color>
+    <color name="line">#ddd</color>
+    <color name="ccc">#ccc</color>
+    <color name="linefill">#DEEFE4</color>
+    <color name="description">#686868</color>
+    <color name="bg2">#ffffff</color>
+    <color name="bg">#f5f1ea</color>
+    <color name="gray_122839">#122839</color>
+    <color name="dark_white">#99ffffff</color>
+    <color name="grid_bg">#00ffffff</color>
+
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+</resources>
