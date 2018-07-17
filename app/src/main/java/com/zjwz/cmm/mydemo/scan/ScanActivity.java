@@ -117,18 +117,18 @@ public class ScanActivity extends BaseActivity  {
         }
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == CAMERA_CODE) {
-            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                initView();
-                Intent intent = this.getIntent();
-                int reqCode = intent.getIntExtra("int", 0);
-            } else {
-                Toast.makeText(ScanActivity.this,"请开启相机权限",Toast.LENGTH_SHORT).show();
-                finish();
-            }
-        }
-    }
+//    @Override
+//    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+//        if (requestCode == CAMERA_CODE) {
+//            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                initView();
+//                Intent intent = this.getIntent();
+//                int reqCode = intent.getIntExtra("int", 0);
+//            } else {
+//                Toast.makeText(ScanActivity.this,"请开启相机权限",Toast.LENGTH_SHORT).show();
+//                finish();
+//            }
+//        }
+//    }
 }
